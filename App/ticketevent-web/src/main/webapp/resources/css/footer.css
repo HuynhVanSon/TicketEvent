@@ -1,46 +1,66 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-
 .footer-header {
 	background-color: #303747;
-	box-shadow:  0px 0px 40px #000000;
+	box-shadow: 0px 0px 40px #000040;
 }
 
-.footer-header a:hover{
+.footer-header a:hover {
 	text-decoration: none;
 }
 
-.footer-link{
+.footer-link {
 	color: white;
-	text-transform:uppercase;
-	font-weight : 700;
-	font-family: "Open Sans",sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: "Open Sans", sans-serif;
 }
 
-.display-table{
+.display-table {
 	display: table;
 }
-.table-cell{
+
+.table-cell {
 	vertical-align: middle;
 	display: table-cell;
 }
 
-.footer-icon{
+.footer-icon {
 	font-size: 40px;
-	margin : 10px 10px 0px 0px;
+	margin: 10px 10px 0px 0px;
 }
 
-.footer-body{
-	background-color: #282F3F;
-	padding: 25px 10px 25px 10px;
+.footer-body {
+	background-color: rgba(24, 32, 51, 0.95);
+	padding: 30px 10px 30px 10px;
 }
 
-.fbody-head,
-.fbody-head ul li,
-fbody-content ul, li{
+.fbody-head, .fbody-head ul li, fbody-content ul, li {
 	color: white;
 }
 
-.footer-footer{
+.footer-footer {
 	background-color: #303747;
+}
+
+.input-group-fix-color {
+	box-shadow: none !important;
+	border-color: #303757 !important;
+	background-color: rgba(40, 47, 63, 0) !important;
+}
+
+.input-group-fix-border-right {
+	border-right: 0px !important;
+	height: 45px !important;
+}
+
+.input-group-fix-border-left {
+	border-left: 0px !important;
+	height: 45px !important;
+}
+
+.input-group-size {
+	border: 5px !important;
+	margin: 5px 0px 5px 0px;
+	width: 70%;
 }

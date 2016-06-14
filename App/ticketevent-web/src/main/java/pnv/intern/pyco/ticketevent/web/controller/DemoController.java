@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class DemoController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String helloWorld() {
-		return "index";
+		return "header_layout";
 	}
 }

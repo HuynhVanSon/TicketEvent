@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.footer-header {
+	background-color: #303747;
+	box-shadow:  0px 0px 40px #000000;
+}
+
+.footer-header a:hover{
+	text-decoration: none;
+}
+
+.footer-link{
+	color: white;
+	text-transform:uppercase;
+	font-weight : 700;
+	font-family: "Open Sans",sans-serif;
+}
+
+.display-table{
+	display: table;
+}
+.table-cell{
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.footer-icon{
+	font-size: 40px;
+	margin : 10px 10px 0px 0px;
+}
+
+.footer-body{
+	background-color: #282F3F;
+	padding: 25px 10px 25px 10px;
+}
+
+.fbody-head,
+.fbody-head ul li,
+fbody-content ul, li{
+	color: white;
+}
+
+.footer-footer{
+	background-color: #303747;
+}

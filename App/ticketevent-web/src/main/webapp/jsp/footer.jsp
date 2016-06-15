@@ -91,11 +91,17 @@
 					<div class="col-sm-6 col-md-3 fbody-block">
 						<div class="fbody-head">Đăng ký nhận email</div>
 						<div class="input-group input-group-size">
-							<span class="input-group-addon input-group-fix-color input-group-fix-border-right"><i class="fa fa-envelope"></i></span>
-							<input type="text" class="form-control input-group-fix-color input-group-fix-border-right input-group-fix-border-left"
+							<span
+								class="input-group-addon input-group-fix-color input-group-fix-border-right"><i
+								class="fa fa-envelope"></i></span> <input type="text"
+								class="form-control input-group-fix-color input-group-fix-border-right input-group-fix-border-left"
 								aria-label="Amount (to the nearest dollar)"> <span
 								class="input-group-btn input-group-size">
-								<button class="btn btn-secondary input-group-fix-color input-group-fix-border-left" type="button"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+								<button
+									class="btn btn-secondary input-group-fix-color input-group-fix-border-left"
+									type="button">
+									<i class="fa fa-arrow-right" aria-hidden="true"></i>
+								</button>
 							</span>
 						</div>
 					</div>
@@ -108,7 +114,7 @@
 						<div class="fbody-content">
 							<ul class="our-links our-links-custom">
 								<li><a class="ft-link-desc" href="/about-us"
-									title="Thông tin về TicketBox">Thông tin về TicketBox</a></li>
+									title="Thông tin về TicketBox">Thông tin về TicketEvent</a></li>
 								<li><a class="ft-link-desc" href="/jobs" title="Việc làm">Việc
 										làm<span class="hiring-sign uppercase tkb-bg-color rounded">We
 											Are Hiring</span>
@@ -133,21 +139,27 @@
 					<div class="col-sm-6 col-md-3 fbody-block">
 						<div class="fbody-head">Follow us</div>
 						<div class="fbody-content">
-							<div class="social-links w-100">
-								<a target="_blank" class="social-link"
-									href="//www.facebook.com/ticketbox.vn"
-									title="ticketbox.vn facebook"> <span
-									class="ello-facebook-2"></span>
-								</a> <a target="_blank" class="social-link"
-									href="//twitter.com/TicketboxVn" title="ticketbox.vn twitter">
-									<span class="ello-twitter-2"></span>
-								</a> <a target="_blank" class="social-link"
-									href="//www.youtube.com/channel/UCke7Kezs4s8pw-17jPiQOOQ"
-									title="ticketbox.vn youtube"> <span class="ello-youtube"></span>
-								</a> <a target="_blank" class="social-link"
-									href="http://blog.ticketbox.vn/" title="ticketbox.vn blog">
-									<span class="ello-blogger-1"></span>
+							<div class="social-media-fix">
+								<div class="sm-facebook">
+								
+									<div class="social-media">
+									<a	href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+										<div class="social-media-icon">
+											<i class="fa fa-facebook"></i>
+										</div>
+										</a>
+									</div>
+								
+								</div>
+								<div class="sm-google-plus">
+								<a	href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+									<div class="social-media">
+										<div class="social-media-icon">
+											<i class="fa fa-facebook"></i>
+										</div>
+									</div>
 								</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -174,7 +186,7 @@
 					</div>
 					<div class="ftft-left">
 						Hệ thống quản lý và phân phối vé sự kiện hàng đầu châu Á. <br>
-						TicketBox Co. Ltd. © 2016
+						TicketEvent Co. Ltd. © 2016
 					</div>
 				</div>
 			</div>

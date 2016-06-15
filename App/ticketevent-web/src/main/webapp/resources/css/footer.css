@@ -41,6 +41,8 @@
 
 .footer-footer {
 	background-color: #303747;
+	padding: 30px 15px 30px 15px;
+	box-shadow: 40px 0px 0px #000040;
 }
 
 .input-group-fix-color {
@@ -63,4 +65,12 @@
 	border: 5px !important;
 	margin: 5px 0px 5px 0px;
 	width: 70%;
+}
+
+.ft-img,
+.ft-img img{
+	background-color: rgba(24, 32, 51, 0.95);
+	border-radius: 5px;
+	width: 70px;
+	height: 70px;
 }

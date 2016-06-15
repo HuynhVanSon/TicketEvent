@@ -170,8 +170,7 @@
 			<div class="col-sm-6 ftft-block ftft-tkb">
 				<div class="table valign-top margin-bottom-0">
 					<div class="ft-img">
-						<img
-							src="https://az810058.vo.msecnd.net/site/global/Content/img/ticketbox-logo.png">
+						<img src="resources/icon/icon2.svg">
 					</div>
 					<div class="ftft-left">
 						Hệ thống quản lý và phân phối vé sự kiện hàng đầu châu Á. <br>
@@ -183,15 +182,15 @@
 				<div class="table valign-top margin-bottom-0">
 					<div class="ft-img visible-xs">
 
-						<a href="/#"><img
-							src="https://az810058.vo.msecnd.net/Images/bct.png"></a>
+						<!-- <a href="/#"><img
+							src="https://az810058.vo.msecnd.net/Images/bct.png"></a> -->
 					</div>
 					<div class="ftft-right hidden-xs">Giấy phép Kinh doanh số
 						0313605444 do Sở Kế hoạch &amp; Đầu tư TPHCM cấp ngày 07/01/2016</div>
 					<div class="table-cell ft-img hidden-xs">
 
-						<a href="/#"><img
-							src="https://az810058.vo.msecnd.net/Images/bct.png"></a>
+						<!-- <a href="/#">
+						<img src="https://az810058.vo.msecnd.net/Images/bct.png"></a> -->
 					</div>
 				</div>
 			</div>

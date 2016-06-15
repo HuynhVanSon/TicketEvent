@@ -167,9 +167,9 @@
 			</div>
 		</section>
 		<section class="footer-footer clearfix">
-			<div class="col-sm-6 ftft-block ftft-tkb">
-				<div class="table valign-top margin-bottom-0">
-					<div class="ft-img">
+			<div class="col-sm-6">
+				<div class="display-table">
+					<div class="ft-img table-cell">
 						<img src="resources/icon/icon2.svg">
 					</div>
 					<div class="ftft-left">
@@ -178,20 +178,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 ftft-block ftft-license">
-				<div class="table valign-top margin-bottom-0">
-					<div class="ft-img visible-xs">
-
-						<!-- <a href="/#"><img
-							src="https://az810058.vo.msecnd.net/Images/bct.png"></a> -->
-					</div>
+			<div class="col-sm-6">
+				<div>
 					<div class="ftft-right hidden-xs">Giấy phép Kinh doanh số
 						0313605444 do Sở Kế hoạch &amp; Đầu tư TPHCM cấp ngày 07/01/2016</div>
-					<div class="table-cell ft-img hidden-xs">
-
-						<!-- <a href="/#">
-						<img src="https://az810058.vo.msecnd.net/Images/bct.png"></a> -->
-					</div>
 				</div>
 			</div>
 

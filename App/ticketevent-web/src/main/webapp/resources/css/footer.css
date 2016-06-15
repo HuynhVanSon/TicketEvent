@@ -42,7 +42,7 @@
 .footer-footer {
 	background-color: #303747;
 	padding: 30px 15px 30px 15px;
-	box-shadow: 40px 0px 0px #000040;
+	box-shadow: 0px -1px 40px #101623;
 }
 
 .input-group-fix-color {
@@ -67,10 +67,17 @@
 	width: 70%;
 }
 
-.ft-img,
-.ft-img img{
+.ft-img img {
+	vertical-align: middle;
 	background-color: rgba(24, 32, 51, 0.95);
 	border-radius: 5px;
-	width: 70px;
-	height: 70px;
+	width: 50px;
+	height: 50px;
+}
+
+.ftft-left{margin-left: 15px;}
+.ftft-left, .ftft-right {
+	vertical-align : middle;
+	color: white;
+	vertical-align: middle;
 }

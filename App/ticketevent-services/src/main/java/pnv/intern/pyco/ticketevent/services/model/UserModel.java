@@ -1,8 +1,11 @@
 package pnv.intern.pyco.ticketevent.services.model;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class UserModel {
 	private String name;
 	private int age;
+	@NotEmpty
 	private String address;
 	
 	public UserModel() {

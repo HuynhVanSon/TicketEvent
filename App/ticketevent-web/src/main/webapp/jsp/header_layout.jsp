@@ -9,10 +9,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Header</title>
 
-<link rel="shortcut icon" href="resources/icon/logo.svg"/>
+<link rel="shortcut icon" href="/ticketevent-web/resources/icon/logo.svg"/>
 <link rel="stylesheet"
 	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="resources/css/header_style.css">
+<link rel="stylesheet" href="/ticketevent-web/resources/css/header_style.css">
 </head>
 <body>
 	<header>
@@ -101,6 +101,6 @@
 	<!-- Latest compiled JavaScript -->
 	<script
 		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script src="resources/js/header.js"></script>
+	<script src="/ticketevent-web/resources/js/header.js"></script>
 </body>
 </html>

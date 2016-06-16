@@ -52,7 +52,7 @@
 					kiện</button>
 
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Đăng nhập / Đăng Ký</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#login-logout">Đăng nhập | Đăng Ký</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false"><c:out value="${user.name}"/> <span class="caret"></span></a>
@@ -69,6 +69,58 @@
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
+	<div class="modal fade" id="login-logout" role="dialog">
+		<div class="modal-dialog">
+	    	<!-- Modal content-->
+	    	<div class="modal-content">
+	        	<div class="modal-header">
+	        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+		        	<div class="login-logout-content">
+						<!-- Nav tabs -->
+						<ul class="nav nav-pills" role="tablist">
+							<li role="presentation" class="active"><a href="#login" aria-controls="login" role="tab" data-toggle="tab">Đăng nhập</a></li>
+							<li role="presentation"><a href="#logout" aria-controls="logout" role="tab" data-toggle="tab">Đăng Ký</a></li>
+						</ul>
+					</div>
+		        </div>
+		        <div class="modal-body">
+		        	<!-- Tab panes -->
+					<div class="tab-content login-logout-content">
+					    <div role="tabpanel" class="tab-pane fade in active" id="login">
+					    	<form action="" method="post">
+						    	<div class="input-group center">
+									<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+									<input class="form-control" type="text" placeholder="Tên tài khoản hoặc email"/>
+								</div>
+					    		<div class="input-group center">
+									<span class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+					    			<input class="form-control" type="password" placeholder="Mật khẩu"/>
+								</div>
+					    		<button class="btn btn-default btn-submit" type="submit">Đăng nhập</button>
+					    	</form>
+					    </div>
+					    <div role="tabpanel" class="tab-pane fade in" id="logout">
+					    	<form action="" method="post">
+					    		<div class="input-group center">
+									<span class="input-group-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+					    			<input class="form-control" type="text" placeholder="Nhập email của bạn"/>
+								</div>
+								<div class="input-group center">
+									<span class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+					    			<input class="form-control" type="password" placeholder="Mật khẩu"/>
+								</div>
+					    		<div class="input-group center">
+									<span class="input-group-addon"><i class="fa fa-key" aria-hidden="true"></i></span>
+					    			<input class="form-control" type="password" placeholder="Nhập lại mật khẩu"/>
+								</div>
+					    		<button class="btn btn-default btn-submit" type="submit">Đăng ký</button>
+					    	</form>
+					    </div>
+					</div>
+		        </div>
+	    	</div>
+	    </div>
+	</div>
 	<div class="clear"></div>
 </header>
 	

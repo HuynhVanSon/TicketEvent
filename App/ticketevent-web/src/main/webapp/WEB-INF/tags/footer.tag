@@ -150,11 +150,21 @@
 					<!-- languages -->
 					<div class="ft-langs">
 						<div class="fbody-head">Ngôn ngữ</div>
-						<a data-select-language=""
-							href="/lang/vi?redirectUrl=https://ticketbox.vn/"
-							class="lang vi rounded"></a> <a data-select-language=""
-							href="/lang/en?redirectUrl=https://ticketbox.vn/"
-							class="lang en rounded"></a>
+						<div class="social-media-fix">
+							<div class="flag-vn">
+								<a
+									href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com"
+									target="_blank"> <img src="resources/icon/flag_vn.png"></img>
+								</a>
+							</div>
+	
+							<div class="flag-en">
+								<a
+									href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com"
+									target="_blank"> <img src="resources/icon/flag_en.png"></img>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

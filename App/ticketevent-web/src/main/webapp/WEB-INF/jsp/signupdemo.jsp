@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -23,23 +24,24 @@
 </style>
 </head>
 <body>
+	<a href="languge?lang=en">English </a> | <a href="languge?lang=vi">German </a>
 	<h2>User SignUp Form - @Valid example</h2>
 
 	<form:form method="POST" commandName="user" action="signup">
 		<form:errors path="*" cssClass="errorblock" element="div" />
 		<table>
 			<tr>
-				<td>User Name :</td>
+				<td><spring:message code="username"/> :</td>
 				<td><form:input path="name" /></td>
 				<td><form:errors path="name" cssClass="error" /><span id="name.errors" class="error">username is required!</span></td>
 			</tr>
 			<tr>
-				<td>User Age :</td>
+				<td><spring:message code="userage"/> :</td>
 				<td><form:input path="age" /></td>
 				<td><form:errors path="age" cssClass="error" /></td>
 			</tr>
 			<tr>
-				<td>User Address :</td>
+				<td><spring:message code="useraddress"/> :</td>
 				<td><form:input path="address" /></td>
 				<td><form:errors path="address" cssClass="error" /></td>
 			</tr>

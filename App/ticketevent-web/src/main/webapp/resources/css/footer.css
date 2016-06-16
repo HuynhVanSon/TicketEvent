@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 .footer-header {
-	background-color: #222a3c;
-	box-shadow: 0px 0px 40px #000040;
+	background-color: #05293a;
+	box-shadow: 0px 10px 40px #101623;
 	margin-top: 50px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .footer-body {
-	background-color: rgba(24, 32, 51, 0.95);
+	background-color: rgba(5, 41, 58, 0.98);
 	padding: 30px 10px 30px 10px;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .footer-footer {
-	background-color: #202739;
+	background-color: #05293a;
 	padding: 30px 15px 30px 15px;
 	box-shadow: 0px -1px 40px #101623;
 }
@@ -117,6 +117,16 @@
 	color: white;
 	background-color: #c53929;
 	border-color: #c53929;
+}
+
+.flag-vn img,
+.flag-en img{
+	margin-top:5px;
+	width:30px;
+	height:20px;
+	float: left;
+  	border-radius: 2px;
+	margin-right: 5px;
 }
 
 

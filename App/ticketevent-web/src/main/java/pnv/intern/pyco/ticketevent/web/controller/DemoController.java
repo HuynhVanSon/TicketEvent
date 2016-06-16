@@ -18,10 +18,10 @@ public class DemoController {
 	private DemoService demoService = new DemoService();
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String helloWorld(Model model) {
-		UserModel user = demoService.getUser();
+	public String helloWorld(@ModelAttribute("user") UserModel users, Model model) {
+		//UserModel user = demoService.getUser();
 		
-		model.addAttribute("user", user);
+		model.addAttribute("user", users);
 		
 		return "header_layout";
 	}

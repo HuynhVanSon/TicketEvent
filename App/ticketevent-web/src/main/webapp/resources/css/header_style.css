@@ -1,5 +1,5 @@
 header .navbar {
-	background-color: #05212e;
+	background-color: #05293a;
 	padding: 20px 0;
 	box-shadow: 0px 0px 40px black;
 	border: 0;
@@ -27,20 +27,17 @@ p {
 }
 
 #search {
-	background-image: url("../icon/search.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	width: 35px;
+	color: #30aee8;
 }
 
 .navbar-nav > li > a {
-	background-color: #05212e !important;
+	background-color: #05293a !important;
 	color: white !important;
 	font-weight: bold;
 }
 
 .navbar-nav > li > a:FOCUS, .navbar-nav > li > a:HOVER {
-	background-color: #05212e !important;
+	background-color: #05293a !important;
 	color: #30aee8 !important;
 }
 
@@ -55,15 +52,13 @@ p {
 }
 
 .btn-default {
-	background-color: #30aee8;
-	color: white;
-	font-weight: bold;
+	background-color: #30aee8 !important;
+	color: white !important;
+	font-weight: bold !important;
 }
 
-.btn-default:HOVER{
-	background-color: #19a5e6;
-	color: white;
-	font-weight: bold;
+.btn-default:HOVER, .btn-default:FOCUS{
+	background-color: #19a5e6 !important;
 }
 
 #btn-add-event {

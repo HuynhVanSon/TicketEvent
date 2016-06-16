@@ -28,6 +28,7 @@
 			<td><c:out value="${user.address}"/></td>
 		</tr>
 	</table>
+	<layout:footer />
 </body>
 </html>
 

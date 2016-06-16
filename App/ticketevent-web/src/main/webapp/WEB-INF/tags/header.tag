@@ -3,6 +3,7 @@
 <%@tag pageEncoding="UTF-8" %>
 
 <link rel="stylesheet" href="/ticketevent-web/resources/css/header_style.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 <header>
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
@@ -39,7 +40,7 @@
 					<li>
 						<form class="navbar-form navbar-left" role="search">
 							<div class="input-group">
-								<a href="#" class="input-group-addon" id="search"></a>
+								<a href="#" class="input-group-addon"><i class="fa fa-search" aria-hidden="true"  id="search"></i></a>
 								<input type="text" class="form-control"
 									placeholder="Tìm kiếm sự kiện" aria-describedby="basic-addon1">
 							</div>

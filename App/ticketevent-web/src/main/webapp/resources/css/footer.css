@@ -90,7 +90,9 @@
 }
 
 .sm-facebook a,
-.sm-google-plus a{
+.sm-google-plus a
+{
+	color:white !important;
 	width:40px;
 	height:40px;
 	float: left;
@@ -103,7 +105,6 @@
 	margin-right: 5px;
 }
 
-.sm-facebook:HOVER,
 .sm-facebook a:HOVER
  {
 	color: white;
@@ -111,7 +112,6 @@
 	border-color: #3b5998;
 }
 
-.sm-google-plus:HOVER,
 .sm-google-plus a:HOVER
  {
 	color: white;

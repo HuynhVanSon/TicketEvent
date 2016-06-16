@@ -138,28 +138,17 @@
 					</div>
 					<div class="col-sm-6 col-md-3 fbody-block">
 						<div class="fbody-head">Follow us</div>
-						<div class="fbody-content">
-							<div class="social-media-fix">
-								<div class="sm-facebook">
-								
-									<div class="social-media">
-									<a	href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
-										<div class="social-media-icon">
-											<i class="fa fa-facebook"></i>
-										</div>
-										</a>
-									</div>
-								
-								</div>
-								<div class="sm-google-plus">
-								<a	href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
-									<div class="social-media">
-										<div class="social-media-icon">
-											<i class="fa fa-facebook"></i>
-										</div>
-									</div>
+						<div class="social-media-fix">
+							<div class="sm-facebook">
+								<a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+									<i class="fa fa-facebook"></i>
 								</a>
-								</div>
+							</div>
+							
+							<div class="sm-google-plus">
+								<a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+									<i class="fa fa-google-plus"></i>
+								</a>
 							</div>
 						</div>
 					</div>

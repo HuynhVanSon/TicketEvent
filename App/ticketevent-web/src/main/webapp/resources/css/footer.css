@@ -88,28 +88,34 @@
 	height: 50px;
 }
 
-.sm-facebook,
-.sm-google-plus{
-	width: 50%;
+.sm-facebook a,
+.sm-google-plus a{
+	width:40px;
+	height:40px;
 	float: left;
-}
-.social-media{
-	width:45px;
-	height:45px;
-	border: 2px solid;
+	border: 1px solid #337ab7;
 	background-color: rgba(51, 122, 183, 0);
   	border-radius: 50%;
-}
-.social-media-icon{
-	text-align:center;
+  	text-align:center;
 	vertical-align: middle;
-	font-size: 22pt;
+	font-size: 20pt;
+	margin-right: 5px;
 }
 
-.social-media:HOVER {
+.sm-facebook:HOVER,
+.sm-facebook a:HOVER
+ {
 	color: white;
 	background-color: #3b5998;
 	border-color: #3b5998;
+}
+
+.sm-google-plus:HOVER,
+.sm-google-plus a:HOVER
+ {
+	color: white;
+	background-color: #c53929;
+	border-color: #c53929;
 }
 
 

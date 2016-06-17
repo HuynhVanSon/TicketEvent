@@ -1,5 +1,6 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@tag pageEncoding="UTF-8" %>
 
 <link rel="stylesheet" href="/ticketevent-web/resources/css/header_style.css">
@@ -20,24 +21,24 @@
 				<ul class="fix-on-top">
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false"><i class="fa fa-map-marker" aria-hidden="true"></i> <span id="location">Địa điểm <span class="caret"></span></span></a>
+						aria-expanded="false"><i class="fa fa-map-marker" aria-hidden="true"></i> <span id="location"><spring:message code="label.Location"/> <span class="caret"></span></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Hà Nội</a></li>
-							<li><a href="#">Hải Phòng</a></li>
+							<li><a href="#"><spring:message code="labelHN"/></a></li>
+							<li><a href="#"><spring:message code="label.HP"/></a></li>
 							<li role="separator" class="divider"></li>
-							<li><a href="#">Đà Nẵng</a></li>
-							<li><a href="#">Quảng Nam</a></li>
-							<li><a href="#">Huế</a></li>
+							<li><a href="#"><spring:message code="label.DN"/></a></li>
+							<li><a href="#"><spring:message code="label.QN"/></a></li>
+							<li><a href="#"><spring:message code="label.H"/></a></li>
 							<li role="separator" class="divider"></li>
-							<li><a href="#">Tp Hồ Chí Minh</a></li>
-							<li><a href="#">Cần Thơ</a></li>
+							<li><a href="#"><spring:message code="labelHCM"/></a></li>
+							<li><a href="#"><spring:message code="label.CT"/></a></li>
 						</ul></li>
 					<li>
 						<form role="search">
 							<div class="input-group">
 								<a href="#" class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></a>
 								<input type="text" class="form-control"
-									placeholder="Tìm kiếm sự kiện" aria-describedby="basic-addon1">
+									placeholder="<spring:message code="label.findEvent"/>" aria-describedby="basic-addon1">
 							</div>
 						</form>
 					</li>
@@ -50,34 +51,33 @@
 				
 			<!-- --------------- -->
 
-				<button class="btn btn-default" id="btn-add-event">+ Tạo sự
-					kiện</button>
+				<button class="btn btn-default" id="btn-add-event"><spring:message code="label.createEvent"/></button>
 
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">Ngôn ngữ  <span class="caret"></span></a>
+						aria-expanded="false"><spring:message code="label.Language"/>  <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li>
-								<a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
-									<img src="resources/icon/flag_vn.png"></img> Tiếng Việt
+								<a href="?lang=vi">
+									<img src="resources/icon/flag_vn.png"></img> <spring:message code="label.vi"/>
 								</a>
-								<a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
-									<img src="resources/icon/flag_en.png"></img> English
+								<a href="?lang=en">
+									<img src="resources/icon/flag_en.png"></img> <spring:message code="label.en"/>
 								</a>
 							</li>
 						</ul>
 					</li>
-					<li><a href="#" data-toggle="modal" data-target="#login-logout">Đăng nhập | Đăng Ký</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#login-logout"><spring:message code="label.login"/> | <spring:message code="label.register"/></a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false"><c:out value="${user.name}"/> <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Tài Khoản</a></li>
-							<li><a href="#">Vé đã đặt</a></li>
-							<li><a href="#">Sự kiện đã tạo</a></li>
+							<li><a href="#"><spring:message code="label.account"/></a></li>
+							<li><a href="#"><spring:message code="label.myTicket"/></a></li>
+							<li><a href="#"><spring:message code="label.myEvent"/></a></li>
 							<li role="separator" class="divider"></li>
-							<li><a href="#">Đăng xuất</a></li>
+							<li><a href="#"><spring:message code="label.logout"/></a></li>
 						</ul></li>
 				</ul>
 			</div>
@@ -94,8 +94,8 @@
 		        	<div class="login-logout-content">
 						<!-- Nav tabs -->
 						<ul class="nav nav-pills" role="tablist">
-							<li role="presentation" class="active"><a href="#login" aria-controls="login" role="tab" data-toggle="tab">Đăng nhập</a></li>
-							<li role="presentation"><a href="#logout" aria-controls="logout" role="tab" data-toggle="tab">Đăng Ký</a></li>
+							<li role="presentation" class="active"><a href="#login" aria-controls="login" role="tab" data-toggle="tab"><spring:message code="label.login"/></a></li>
+							<li role="presentation"><a href="#logout" aria-controls="logout" role="tab" data-toggle="tab"><spring:message code="label.register"/></a></li>
 						</ul>
 					</div>
 		        </div>
@@ -106,30 +106,30 @@
 					    	<form action="" method="post">
 						    	<div class="input-group center">
 									<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
-									<input class="form-control" type="text" placeholder="Tên tài khoản hoặc email"/>
+									<input class="form-control" type="text" placeholder="<spring:message code="label.form.username"/>"/>
 								</div>
 					    		<div class="input-group center">
 									<span class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></span>
-					    			<input class="form-control" type="password" placeholder="Mật khẩu"/>
+					    			<input class="form-control" type="password" placeholder="<spring:message code="label.form.pass"/>"/>
 								</div>
-					    		<button class="btn btn-default btn-submit" type="submit">Đăng nhập</button>
+					    		<button class="btn btn-default btn-submit" type="submit"><spring:message code="label.login"/></button>
 					    	</form>
 					    </div>
 					    <div role="tabpanel" class="tab-pane fade in" id="logout">
 					    	<form action="" method="post">
 					    		<div class="input-group center">
 									<span class="input-group-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-					    			<input class="form-control" type="text" placeholder="Nhập email của bạn"/>
+					    			<input class="form-control" type="text" placeholder="<spring:message code="label.form.email"/>"/>
 								</div>
 								<div class="input-group center">
 									<span class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></span>
-					    			<input class="form-control" type="password" placeholder="Mật khẩu"/>
+					    			<input class="form-control" type="password" placeholder="<spring:message code="label.form.pass"/>"/>
 								</div>
 					    		<div class="input-group center">
 									<span class="input-group-addon"><i class="fa fa-key" aria-hidden="true"></i></span>
-					    			<input class="form-control" type="password" placeholder="Nhập lại mật khẩu"/>
+					    			<input class="form-control" type="password" placeholder="<spring:message code="label.form.confirmpass"/>"/>
 								</div>
-					    		<button class="btn btn-default btn-submit" type="submit">Đăng ký</button>
+					    		<button class="btn btn-default btn-submit" type="submit"><spring:message code="label.register"/></button>
 					    	</form>
 					    </div>
 					</div>

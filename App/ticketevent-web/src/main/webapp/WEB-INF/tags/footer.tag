@@ -10,7 +10,7 @@
 <footer class="footer">
 	<section class="footer-header clearfix">
 		<div class="display-table col-sm-6 col-md-3">
-			<a href="/how-do-we-help" title="Chúng tôi giúp gì được cho bạn?">
+			<a href="/how-do-we-help" title="<spring:message code="footer.labelHelp"/>">
 				<div class="display-table">
 					<div class="table-cell footer-icon">
 						<i class="footer-icon fa fa-question-circle"></i>
@@ -23,7 +23,7 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-3">
-			<a href="/checkin-app" title="Ứng dụng check-in">
+			<a href="/checkin-app" title="<spring:message code="footer.labelCheckin"/>">
 				<div class="display-table">
 					<div class="table-cell footer-icon">
 						<i class="footer-icon fa fa-question-circle"></i>
@@ -48,7 +48,7 @@
 			</a>
 		</div>
 		<div class="ft-link col-sm-6 col-md-3">
-			<a href="/contact" title="Liên hệ" class="table center valign-middle">
+			<a href="/contact" title="<spring:message code="footer.labelContact"/>" class="table center valign-middle">
 				<div class="display-table">
 					<div class="table-cell footer-icon">
 						<i class="footer-icon fa fa fa-phone"></i>
@@ -67,11 +67,11 @@
 				<div class="col-sm-6 col-md-3">
 					<div class="fbody-head">Hotline</div>
 						<ul class="our-links">
-							<li><spring:message code="footer.labelHCM"/>: <a class="ft-hotline"
+							<li><spring:message code="labelHCM"/>: <a class="ft-hotline"
 								href="tel:+84873007998"><strong class="tkb-color">08.7300.7998</strong>
 									(8:30 AM - 7:30 PM)</a>
 							</li>
-							<li><spring:message code="footer.labelHN"/>: <a class="ft-hotline" href="tel:+84947119705"><strong
+							<li><spring:message code="labelHN"/>: <a class="ft-hotline" href="tel:+84947119705"><strong
 									class="tkb-color">094.711.9705</strong> (9:30 AM - 6:30 PM)</a>
 							</li>
 						</ul>
@@ -102,10 +102,10 @@
 					<div class="fbody-content">
 						<ul class="our-links">
 							<li><a href="/about-us"
-								title="Thông tin về TicketBox"><spring:message code="footer.labelAbout2"/> TicketEvent</a></li>
-							<li><a href="/jobs" title="Việc làm"><spring:message code="footer.labelJobFuture"/></a></li>
+								title="<spring:message code="footer.labelAbout2"/> TicketBox"><spring:message code="footer.labelAbout2"/> TicketEvent</a></li>
+							<li><a href="/jobs" title="<spring:message code="footer.labelJobFuture"/>"><spring:message code="footer.labelJobFuture"/></a></li>
 							<li><a href="/term-and-policy"
-								title="Điều khoản &amp; Quy chế"><spring:message code="footer.labelRules"/></a></li>
+								title="<spring:message code="footer.labelRules"/>"><spring:message code="footer.labelRules"/></a></li>
 						</ul>
 					</div>
 				</div>
@@ -141,14 +141,13 @@
 				<div class="col-sm-6 col-md-3">
 					<!-- languages -->
 					<div>
-						<div class="fbody-head"><spring:message code="footer.labelLanguage"/></div>
+						<div class="fbody-head"><spring:message code="label.Language"/></div>
 						<div class="social-media-fix">
 							<div class="flag-vn">
-								<a href="language?lang=vi"> <img src="resources/icon/flag_vn.png"></img></a>
+								<a href='?lang=vi'> <img src="resources/icon/flag_vn.png"></img></a>
 							</div>
-	
 							<div class="flag-en">
-								<a href="language?lang=en"> <img src="resources/icon/flag_en.png"></img></a>
+								<a href="?lang=en"> <img src="resources/icon/flag_en.png"></img></a>
 							</div>
 						</div>
 					</div>
@@ -163,15 +162,14 @@
 					<img src="resources/icon/icon2.svg">
 				</div>
 				<div class="ftft-left">
-					Hệ thống quản lý và phân phối vé sự kiện hàng đầu châu Á. <br>
+					<spring:message code="footer.left"/> <br>
 					TicketEvent Co. Ltd. © 2016
 				</div>
 			</div>
 		</div>
 		<div class="col-sm-6">
 			<div>
-				<div class="ftft-right hidden-xs">Giấy phép Kinh doanh số
-					0313605444 do Sở Kế hoạch &amp; Đầu tư TPHCM cấp ngày 07/01/2016</div>
+				<div class="ftft-right hidden-xs"><spring:message code="footer.right"/></div>
 			</div>
 		</div>
 

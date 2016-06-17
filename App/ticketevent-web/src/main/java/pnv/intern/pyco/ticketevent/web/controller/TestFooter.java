@@ -2,7 +2,6 @@ package pnv.intern.pyco.ticketevent.web.controller;
 
 import java.util.Locale;
 
-import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
 import org.springframework.stereotype.Controller;
@@ -17,21 +16,13 @@ import pnv.intern.pyco.ticketevent.services.model.UserModel;
 @Controller
 public class TestFooter {
 	@RequestMapping(value = "test", method = RequestMethod.GET)
-	public String test(HttpSession sessionPage) {
-		/*sessionPage.setAttribute("pageView", "footer");
-		sessionPage.setAttribute("linklanguge", "signup");*/
+	public String test() {
 		return "footer";
 	}
 
-	@RequestMapping(value = "language", method = RequestMethod.GET)
-	public String languge(Locale locale, final RedirectAttributes redirect,
-			HttpSession session) {
-		redirect.addFlashAttribute("locale", locale);
-		return "redirect: signup";
-	}
 
 	@RequestMapping(value = "signup", method = RequestMethod.GET)
-	public String signUpForm(Locale locale, Model model, HttpSession session) {
+	public String signUpForm(Locale locale, Model model) {
 		model.addAttribute("user", new UserModel());
 		return "signupdemo";
 	}
@@ -45,5 +36,11 @@ public class TestFooter {
 			redirect.addFlashAttribute("user", user);
 			return "redirect:/";
 		}
+	}
+	
+	@RequestMapping(value = "input", method = RequestMethod.GET)
+	public String input(Model model){
+		model.addAttribute("languageUrl", "");
+		return "input";
 	}
 }

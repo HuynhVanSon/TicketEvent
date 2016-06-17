@@ -20,7 +20,7 @@ public class DemoController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String helloWorld(@ModelAttribute("user") UserModel users, Model model) {
 		//UserModel user = demoService.getUser();
-		
+		model.addAttribute("languageUrl", "");
 		model.addAttribute("user", users);
 		
 		return "header_layout";

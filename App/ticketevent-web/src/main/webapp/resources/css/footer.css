@@ -34,7 +34,7 @@
 
 .footer-body {
 	background-color: rgba(5, 41, 58, 0.98);
-	padding: 30px 10px 30px 10px;
+	padding: 20px 10px 15px 10px;
 }
 
 .fbody-head, .fbody-head ul li, fbody-content ul, li {
@@ -142,5 +142,10 @@
 .our-links li a,
 .address{
 	text-decoration: none !important;
+}
+
+.input-group-size button:hover {
+	background-color:#303757 !important;
+	color: white !important;
 }
 

@@ -2,6 +2,7 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="pnv.intern.pyco/tags" prefix="layout"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -24,7 +25,7 @@
 </style>
 </head>
 <body>
-	<a href="language?lang=en">English </a> | <a href="language?lang=vi">Tiếng Việt</a>
+	<a href="signup?lang=en">English </a> | <a href="signup?lang=vi">Tiếng Việt</a>
 	<h2>User SignUp Form - @Valid example</h2>
 
 	<form:form method="POST" commandName="user" action="signup">
@@ -50,5 +51,6 @@
 			</tr>
 		</table>
 	</form:form>
+	<layout:footer></layout:footer>
 </body>
 </html>

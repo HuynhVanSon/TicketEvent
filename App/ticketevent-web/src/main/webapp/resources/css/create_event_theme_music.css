@@ -1,0 +1,19 @@
+img {
+	object-fit: cover;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px 0;
+}
+
+p {
+	text-align: center;
+}
+
+.content {
+	width: 80%;
+	margin: auto;
+}
+

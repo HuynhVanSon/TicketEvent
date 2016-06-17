@@ -139,8 +139,8 @@
 
 						<div class="sm-google-plus">
 							<a
-								href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com"
-								target="_blank"> <i class="fa fa-google-plus"></i>
+								href="http://www.plus.google.com/sharer.php?u=https://simplesharebuttons.com"
+								target="_blank"><i class="fa fa-google-plus"></i>
 							</a>
 						</div>
 					</div>
@@ -152,17 +152,11 @@
 						<div class="fbody-head">Ngôn ngữ</div>
 						<div class="social-media-fix">
 							<div class="flag-vn">
-								<a
-									href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com"
-									target="_blank"> <img src="resources/icon/flag_vn.png"></img>
-								</a>
+								<a href="language?lang=vi"> <img src="resources/icon/flag_vn.png"></img></a>
 							</div>
 	
 							<div class="flag-en">
-								<a
-									href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com"
-									target="_blank"> <img src="resources/icon/flag_en.png"></img>
-								</a>
+								<a href="language?lang=en"> <img src="resources/icon/flag_en.png"></img></a>
 							</div>
 						</div>
 					</div>

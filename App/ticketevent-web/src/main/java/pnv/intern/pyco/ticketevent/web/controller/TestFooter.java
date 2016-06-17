@@ -5,7 +5,6 @@ import java.util.Locale;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
-import org.springframework.boot.autoconfigure.web.ServerProperties.Session;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -19,8 +18,8 @@ import pnv.intern.pyco.ticketevent.services.model.UserModel;
 public class TestFooter {
 	@RequestMapping(value = "test", method = RequestMethod.GET)
 	public String test(HttpSession sessionPage) {
-		sessionPage.setAttribute("pageView", "footer");
-		sessionPage.setAttribute("linklanguge", "signup");
+		/*sessionPage.setAttribute("pageView", "footer");
+		sessionPage.setAttribute("linklanguge", "signup");*/
 		return "footer";
 	}
 
@@ -28,7 +27,7 @@ public class TestFooter {
 	public String languge(Locale locale, final RedirectAttributes redirect,
 			HttpSession session) {
 		redirect.addFlashAttribute("locale", locale);
-		return "redirect: " + session.getAttribute("linklanguge").toString();
+		return "redirect: signup";
 	}
 
 	@RequestMapping(value = "signup", method = RequestMethod.GET)

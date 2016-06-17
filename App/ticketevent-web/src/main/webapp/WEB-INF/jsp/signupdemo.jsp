@@ -24,7 +24,7 @@
 </style>
 </head>
 <body>
-	<a href="language?lang=en">English </a> | <a href="language?lang=vi">German </a>
+	<a href="language?lang=en">English </a> | <a href="language?lang=vi">Tiếng Việt</a>
 	<h2>User SignUp Form - @Valid example</h2>
 
 	<form:form method="POST" commandName="user" action="signup">

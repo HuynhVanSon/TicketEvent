@@ -1,5 +1,6 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@tag pageEncoding="UTF-8"%>
 
 <link rel="stylesheet" href="resources/css/footer.css" />
@@ -15,8 +16,8 @@
 						<i class="footer-icon fa fa-question-circle"></i>
 					</div>
 					<div class="table-cell">
-						<span class="footer-link">Chúng tôi giúp gì được cho bạn?</span><br>
-						<span>Dễ dàng - Tiện lợi - Bảo mật cao</span>
+						<span class="footer-link"><spring:message code="footer.labelHelp"/></span><br>
+						<span><spring:message code="footer.labelHelpDes"/></span>
 					</div>
 				</div>
 			</a>
@@ -28,8 +29,8 @@
 						<i class="footer-icon fa fa-question-circle"></i>
 					</div>
 					<div class="table-cell">
-						<span class="footer-link">Ứng dụng check in</span><br> <span>Hỗ
-							trợ đa nền tảng</span>
+						<span class="footer-link"><spring:message code="footer.labelCheckin"/></span><br> 
+						<span><spring:message code="footer.labelCheckinDes"/></span>
 					</div>
 				</div>
 			</a>
@@ -41,8 +42,7 @@
 						<i class="footer-icon fa fa-comments-o"></i>
 					</div>
 					<div class="table-cell">
-						<span class="footer-link">FAQ</span><br> <span>Câu hỏi
-							thường gặp</span>
+						<span class="footer-link">FAQ</span><br> <span><spring:message code="footer.labelFAQDes"/></span>
 					</div>
 				</div>
 			</a>
@@ -54,8 +54,7 @@
 						<i class="footer-icon fa fa fa-phone"></i>
 					</div>
 					<div class="table-cell">
-						<span class="footer-link">Liên hệ</span><br> <span>Liên
-							hệ hợp tác: 0913-886-211</span>
+						<span class="footer-link"><spring:message code="footer.labelContact"/></span><br> <span><spring:message code="footer.labelContactDes"/>: 01637785816</span>
 					</div>
 				</div>
 			</a>
@@ -67,21 +66,19 @@
 			<div class="row">
 				<div class="col-sm-6 col-md-3">
 					<div class="fbody-head">Hotline</div>
-					<div class="fbody-content">
 						<ul class="our-links">
-							<li>Hồ Chí Minh: <a class="ft-hotline"
+							<li><spring:message code="footer.labelHCM"/>: <a class="ft-hotline"
 								href="tel:+84873007998"><strong class="tkb-color">08.7300.7998</strong>
 									(8:30 AM - 7:30 PM)</a>
 							</li>
-							<li>Hà Nội: <a class="ft-hotline" href="tel:+84947119705"><strong
+							<li><spring:message code="footer.labelHN"/>: <a class="ft-hotline" href="tel:+84947119705"><strong
 									class="tkb-color">094.711.9705</strong> (9:30 AM - 6:30 PM)</a>
 							</li>
 						</ul>
-					</div>
 				</div>
 				<div class="col-sm-6 col-md-3 fbody-block">
-					<div class="fbody-head">Đăng ký nhận email</div>
-					<div class="input-group input-group-size">
+					<div class="fbody-head"><spring:message code="footer.labelREmail"/></div>
+					<div class="input-email input-group input-group-size">
 						<span
 							class="input-group-addon input-group-fix-color input-group-fix-border-right"><i
 							class="fa fa-envelope"></i></span> <input type="text"
@@ -97,22 +94,18 @@
 					</div>
 				</div>
 				<div class="col-sm-6 col-md-3 fbody-block">
-					<div class="fbody-head">Cài đặt ứng dụng</div>
+					<div class="fbody-head"><spring:message code="footer.labelInApp"/></div>
 					<div class="fbody-content"></div>
 				</div>
 				<div class="col-sm-6 col-md-3 fbody-block">
-					<span class="fbody-head">Về công ty chúng tôi</span>
+					<span class="fbody-head"><spring:message code="footer.labelAbout1"/></span>
 					<div class="fbody-content">
-						<ul class="our-links our-links-custom">
-							<li><a class="ft-link-desc" href="/about-us"
-								title="Thông tin về TicketBox">Thông tin về TicketEvent</a></li>
-							<li><a class="ft-link-desc" href="/jobs" title="Việc làm">Việc
-									làm<span class="hiring-sign uppercase tkb-bg-color rounded">We
-										Are Hiring</span>
-							</a></li>
-							<li><a class="ft-link-desc" href="/term-and-policy"
-								title="Điều khoản &amp; Quy chế">Điều khoản &amp; Quy chế</a></li>
-
+						<ul class="our-links">
+							<li><a href="/about-us"
+								title="Thông tin về TicketBox"><spring:message code="footer.labelAbout2"/> TicketEvent</a></li>
+							<li><a href="/jobs" title="Việc làm"><spring:message code="footer.labelJobFuture"/></a></li>
+							<li><a href="/term-and-policy"
+								title="Điều khoản &amp; Quy chế"><spring:message code="footer.labelRules"/></a></li>
 						</ul>
 					</div>
 				</div>
@@ -121,14 +114,13 @@
 		<div class="col-lg-12">
 			<div class="row">
 				<div class="col-sm-6 col-md-3 fbody-block">
-					<div class="fbody-head">Địa chỉ</div>
-					<div class="fbody-content">
-						<a class="ft-link-desc" href="/contact">Click tại đây để xem
-							địa chỉ văn phòng chúng tôi</a>
-					</div>
+					<div class="fbody-head"><spring:message code="footer.labelAddress"/></div>
+					<!-- <div class="fbody-cta"> -->
+						<a class = "address" href="/contact"><spring:message code="footer.labelAddressDes"/></a>
+					<!-- </div> -->
 				</div>
-				<div class="col-sm-6 col-md-3 fbody-block">
-					<div class="fbody-head">Follow us</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="fbody-head"><spring:message code="footer.labelFollow"/></div>
 					<div class="social-media-fix">
 						<div class="sm-facebook">
 							<a
@@ -146,10 +138,10 @@
 					</div>
 				</div>
 
-				<div class="col-sm-6 col-md-3 fbody-block">
+				<div class="col-sm-6 col-md-3">
 					<!-- languages -->
-					<div class="ft-langs">
-						<div class="fbody-head">Ngôn ngữ</div>
+					<div>
+						<div class="fbody-head"><spring:message code="footer.labelLanguage"/></div>
 						<div class="social-media-fix">
 							<div class="flag-vn">
 								<a href="language?lang=vi"> <img src="resources/icon/flag_vn.png"></img></a>

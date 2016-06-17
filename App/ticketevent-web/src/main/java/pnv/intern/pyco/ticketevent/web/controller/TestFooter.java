@@ -17,7 +17,7 @@ import pnv.intern.pyco.ticketevent.services.model.UserModel;
 public class TestFooter {
 	@RequestMapping(value = "test", method = RequestMethod.GET)
 	public String test() {
-		return "index";
+		return "footer";
 	}
 
 

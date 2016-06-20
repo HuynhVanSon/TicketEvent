@@ -9,13 +9,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import pnv.intern.pyco.ticketevent.services.DemoService;
 import pnv.intern.pyco.ticketevent.services.model.UserModel;
 
 @Controller
 public class DemoController {
-	
-	private DemoService demoService = new DemoService();
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String helloWorld(@ModelAttribute("user") UserModel users, Model model) {
@@ -52,5 +49,12 @@ public class DemoController {
 		model.addAttribute("user", user);
 		
 		return "header_layout";
+	}
+	
+	@RequestMapping(value = "/view-event", method = RequestMethod.GET)
+	public String viewEvent(Model model) {
+		model.addAttribute("languageUrl", "");
+		
+		return "event_detail";
 	}
 }

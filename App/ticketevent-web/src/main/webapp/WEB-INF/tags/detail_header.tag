@@ -22,10 +22,10 @@
 					aria-expanded="false">Ngôn ngữ  <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li>
-							<a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+							<a href="?lang=vi">
 								<img src="resources/icon/flag_vn.png"></img> Tiếng Việt
 							</a>
-							<a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+							<a href="?lang=en">
 								<img src="resources/icon/flag_en.png"></img> English
 							</a>
 						</li>
@@ -42,13 +42,13 @@
                        <a class="page-scroll" href="#introduction">Giới thiệu</a>
                    </li>
                    <li>
-                       <a class="page-scroll" href="#famous-human">Người nổi tiếng</a>
-                   </li>
-                   <li>
-                       <a class="page-scroll" href="#library-image">Thư viện ảnh</a>
+                       <a class="page-scroll" href="#famous-person">Người nổi tiếng</a>
                    </li>
                    <li>
                        <a class="page-scroll" href="#famous-song">Sáng tác nổi bật</a>
+                   </li>
+                   <li>
+                       <a class="page-scroll" href="#library-image">Thư viện ảnh</a>
                    </li>
                    <li>
                        <a class="page-scroll" href="#place">Địa điểm</a>

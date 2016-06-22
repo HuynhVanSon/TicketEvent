@@ -78,20 +78,21 @@
 				</div>
 				<div class="col-sm-6 col-md-3 fbody-block">
 					<div class="fbody-head"><spring:message code="footer.labelREmail"/></div>
+					<form:form action="sentEmail" method= "POST">
 					<div class="input-email input-group input-group-size">
 						<span
 							class="input-group-addon input-group-fix-color input-group-fix-border-right"><i
 							class="fa fa-envelope"></i></span> <input type="text"
 							class="form-control input-group-fix-color input-group-fix-border-right input-group-fix-border-left"
-							aria-label="Amount (to the nearest dollar)"> <span
+							aria-label="Amount (to the nearest dollar)"><span
 							class="input-group-btn input-group-size">
 							<button
 								class="btn btn-secondary input-group-fix-color input-group-fix-border-left"
-								type="button">
+								type="submit">
 								<i class="fa fa-arrow-right" aria-hidden="true"></i>
 							</button>
 						</span>
-					</div>
+					</div></form:form>
 				</div>
 				<div class="col-sm-6 col-md-3 fbody-block">
 					<div class="fbody-head"><spring:message code="footer.labelInApp"/></div>

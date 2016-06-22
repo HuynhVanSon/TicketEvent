@@ -34,40 +34,35 @@ h1 {
 
 /* slider */
 .vertical .carousel-inner {
-  width: 100%;
+	width: 100%;
 }
 
 .carousel.vertical .item {
-  -webkit-transition: 0.6s ease-in-out top;
-     -moz-transition: 0.6s ease-in-out top;
-      -ms-transition: 0.6s ease-in-out top;
-       -o-transition: 0.6s ease-in-out top;
-          transition: 0.6s ease-in-out top;
-          
+    transition: 0.6s ease-in-out top;
 	width: 100%;
 }
 
 .famous-person .carousel.vertical .active {
-  top: 0;
+	top: 0;
 }
 
 .carousel.vertical .next {
-  top: 100%;
+	top: 100%;
 }
 
 .carousel.vertical .prev {
-  top: -100%;
+	top: -100%;
 }
 .carousel.vertical .right {
 	top: auto;
 }
 
 .carousel.vertical .active.left {
-  top: -100%;
+	top: -100%;
 }
 
 .carousel.vertical .active.right {
-  top: 100%;
+	top: 100%;
 }
 
 .carousel-control i {
@@ -83,7 +78,7 @@ h1 {
 
 .carousel.vertical .next.left,
 .carousel.vertical .prev.right {
-  top: 0;
+	top: 0;
 }
 
 @media screen and (max-width: 678px) {
@@ -105,7 +100,7 @@ h1 {
 	text-align: center;
 	margin: 40px;
 }
-/* /slider */
+/* end slider */
 
 #famous-person > span {
 	color: #30aee8;
@@ -125,9 +120,9 @@ h1 {
 }
 .item .thumb img {
 	width: 100%;
-	margin: 2px;
+	margin: 2px auto;
 }
-/* slide thumbnail */
+/* end slide thumbnail */
 
 .btn-large {
     display: block !important;
@@ -137,4 +132,12 @@ h1 {
 
 #place .img-cover {
 	margin: 40px auto;
+}
+
+.event-time {
+	color: red;
+}
+
+#place label {
+	font-size: 25px;
 }

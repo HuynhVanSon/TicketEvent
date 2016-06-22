@@ -5,7 +5,7 @@
 <link rel="stylesheet"
 	href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet"
-	href="/ticketevent-web/resources/css/create_event_theme_music.css">
+	href="/ticketevent-web/resources/css/theme_music.css">
 
 <article>
 	<section>
@@ -103,8 +103,7 @@
 	<section id="library-image">
 		<div>
 			<h1>Thư viện ảnh</h1>
-			<div id="slide-lib-image" class="carousel slide content"
-				data-ride="carousel">
+			<div id="slide-lib-image" class="carousel slide content">
 				<div class="carousel-inner">
 					<div class="item active">
 						<img class="img-cover"
@@ -141,54 +140,60 @@
 				</div>
 			</div>
 			<div class="clearfix">
-				<div id="thumbcarousel" class="carousel slide" data-interval="false">
-					<div class="carousel-inner">
+				<div class="carousel slide" data-interval="false">
+					<div>
 						<div class="item active">
-							<div data-target="#slide-lib-image" data-slide-to="0" class="thumb">
+							<div data-target="#slide-lib-image" data-slide-to="0"
+								class="thumb">
 								<img
 									src="http://placehold.it/100/e8117f/fff&amp;text=Product+Main">
 							</div>
-							<div data-target="#slide-lib-image" data-slide-to="1" class="thumb">
+							<div data-target="#slide-lib-image" data-slide-to="1"
+								class="thumb">
 								<img
 									src="http://placehold.it/100/00ffff/000&amp;text=Product+Image+2">
 							</div>
-							<div data-target="#slide-lib-image" data-slide-to="2" class="thumb">
+							<div data-target="#slide-lib-image" data-slide-to="2"
+								class="thumb">
 								<img
 									src="http://placehold.it/100/ff00ff/fff&amp;text=Product+Image+3">
 							</div>
-							<div data-target="#slide-lib-image" data-slide-to="3" class="thumb">
+							<div data-target="#slide-lib-image" data-slide-to="3"
+								class="thumb">
 								<img
 									src="http://placehold.it/100/ffff00/000&amp;text=Product+Image+4">
 							</div>
 
-							<div data-target="#slide-lib-image" data-slide-to="4" class="thumb">
+							<div data-target="#slide-lib-image" data-slide-to="4"
+								class="thumb">
 								<img
 									src="http://placehold.it/100/612b65/fff&amp;text=Product+Image+5">
 							</div>
-							<div data-target="#slide-lib-image" data-slide-to="5" class="thumb">
+							<div data-target="#slide-lib-image" data-slide-to="5"
+								class="thumb">
 								<img
 									src="http://placehold.it/100/00ffcc/000&amp;text=Product+Image+6">
 							</div>
-							<div data-target="#slide-lib-image" data-slide-to="6" class="thumb">
+							<div data-target="#slide-lib-image" data-slide-to="6"
+								class="thumb">
 								<img
 									src="http://placehold.it/100/db371b/fff&amp;text=Product+Image+7">
 							</div>
-							<div data-target="#slide-lib-image" data-slide-to="7" class="thumb">
+							<div data-target="#slide-lib-image" data-slide-to="7"
+								class="thumb">
 								<img
 									src="http://placehold.it/100/feb8aa/000&amp;text=Product+Image+8">
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- /thumbcarousel -->
 			</div>
-			<!-- /clearfix -->
 		</div>
 	</section>
 	<section id="place">
 		<div class="content">
 			<h1>Địa điểm</h1>
-			<p class="small-content">Chúng tôi tổ chức tại nhà.</p>
+			<p class="small-content"><label class="event-time">06:00 Ngày 11/12/2015</label> <label> tại nhà tui</label> </p>
 			<figure>
 				<img class="img-cover" alt=""
 					src="https://az810058.vo.msecnd.net/static-page/img/365-seatmap.png">
@@ -212,7 +217,6 @@
 		</div>
 	</section>
 </article>
-
 <script src="/ticketevent-web/resources/js/scroll_effect.js"></script>
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>

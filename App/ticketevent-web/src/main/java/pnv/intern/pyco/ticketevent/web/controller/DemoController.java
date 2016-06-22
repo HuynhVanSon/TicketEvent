@@ -55,6 +55,20 @@ public class DemoController {
 	public String viewEvent(Model model) {
 		model.addAttribute("languageUrl", "");
 		
-		return "event_detail";
+		return "event_detail_theme_music";
+	}
+	
+	@RequestMapping(value = "/view-event-theme-study", method = RequestMethod.GET)
+	public String viewEventThemeStudy(Model model) {
+		model.addAttribute("languageUrl", "");
+		
+		return "event_detail_theme_study";
+	}
+	
+	@RequestMapping(value = "/view-event-theme-activity", method = RequestMethod.GET)
+	public String viewEventThemeActivity(Model model) {
+		model.addAttribute("languageUrl", "");
+		
+		return "event_detail_theme_activity";
 	}
 }

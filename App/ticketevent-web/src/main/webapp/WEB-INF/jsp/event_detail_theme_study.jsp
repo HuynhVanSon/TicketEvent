@@ -15,8 +15,9 @@
 	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
-	<layout:detail-header></layout:detail-header>
-	<layout:body></layout:body>
+	<layout:header_theme_study></layout:header_theme_study>
+	<layout:body_theme_study></layout:body_theme_study>
+	<layout:comment></layout:comment>
 	<layout:footer></layout:footer>
 </body>
 </html>
